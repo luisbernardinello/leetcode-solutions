@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+class Solution01 {
     public int[] twoSum(int[] nums, int target) {
 
         Map<Integer, Integer> complements = new HashMap<>();
@@ -20,7 +20,7 @@ class Solution {
 
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution01 solution = new Solution01();
   
         int[] nums1 = {2, 7, 11, 15};
         int target1 = 9;
